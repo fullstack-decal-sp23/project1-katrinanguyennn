@@ -3,11 +3,20 @@
     <head>
         <title>Contact Me Here</title>
     </head>
+    <script>
+        function validateForm() {
+          let x = document.forms["prokkawn sucks"]["prokkawn is awesome"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+        }
+    </script>
     <body>
         <h2>Contact me here!🤓</h2>
-        <form>
+        <form name = "prokkawn sucks" onsubmit="return validateForm()" method="post">
             <label>Name:</label>
-            <input type=text id="name">
+            <input type=text name="prokkawn is awesome">
             <br>
             <label>Email:</label>
             <input type=text id="email">
