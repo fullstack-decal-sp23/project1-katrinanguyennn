@@ -1,0 +1,22 @@
+head{
+    background-color: #fff9ec;
+  }
+  .heading {
+    font-family: monospace;
+  }
+.grid-container {
+   grid-template-columns: auto auto; 
+   display: grid;
+   gap: 50px;
+}
+
+.grid-item {
+    padding: 20px
+    tect-align: center;
+}
+.tabcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:monospace;
+}
